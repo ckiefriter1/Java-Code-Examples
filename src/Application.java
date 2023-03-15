@@ -26,6 +26,6 @@ public class Application {
 		System.out.println("User Directory: " + System.getProperty("user.dir"));
 		
 					
-	}
+	}  // End of the method called main
 
-}
+}   // end of the class called Application
