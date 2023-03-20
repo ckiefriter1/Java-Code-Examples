@@ -6,7 +6,14 @@ public class MethodDemo {
 		
 		int a = 25;
 		int b = 10;
-		Calculator myCalc = new Calculator();    // Declare and instantiate Calculator class.
+		
+		/*
+		 * Declare and instantiate Calculator class.  
+		 * 
+		 * -> Calculator is the class.  
+		 * -> myCalc is an object that's an instance of Calculator.
+		 */
+		Calculator myCalc = new Calculator();    
 		
 		/* 
 		 * Method calls return the result of the calculation,which is stored in the result variables.

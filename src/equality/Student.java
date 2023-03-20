@@ -1,8 +1,8 @@
-package arrays;
+package equality;
 
 public class Student { 
 	
-    String fullName = ""; 
+    public String fullName = ""; 
     int[] grades; 
 
     /* 
