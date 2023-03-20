@@ -2,7 +2,7 @@ package equality;
 
 public class Student { 
 	
-    public String fullName = ""; 
+    String fullName = ""; 
     int[] grades; 
 
     /* 
