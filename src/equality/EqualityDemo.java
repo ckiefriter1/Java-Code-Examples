@@ -13,7 +13,7 @@ public class EqualityDemo {
 
 		/*
 		 * Equality check for objects compares that both object variables are referencing (or pointing to) 
-		 * the same object instance. 
+		 * the same object instance. Should compare false.
 		 */
 		int[] grades = { 100, 100, 100 };
 		Student s1 = new Student("Chuck", grades);

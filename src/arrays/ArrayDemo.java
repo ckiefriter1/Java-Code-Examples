@@ -4,7 +4,7 @@ class ArrayDemo {
     public static void main(String[] args) {
         // declares an array of integers
         int[] anArray;
-
+        
         // allocates memory for 10 integers
         anArray = new int[10];
            
@@ -21,6 +21,9 @@ class ArrayDemo {
         anArray[7] = 800;
         anArray[8] = 900;
         anArray[9] = 1000;       // The last element in an array is at an index that's the length of the array -1
+        
+        int age = 34;
+        anArray[4] = age;
 
         System.out.println("Element at index 0: "
                            + anArray[0]);
