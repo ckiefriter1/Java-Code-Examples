@@ -8,6 +8,8 @@ public class StringBuilderExample {
 		String middleInitial = "B";
 		String space = " ";
 		
+		String fullName = firstName + space + middleInitial + space + lastName;
+		
 		System.out.println(firstName);
 		System.out.println(lastName);
 		
