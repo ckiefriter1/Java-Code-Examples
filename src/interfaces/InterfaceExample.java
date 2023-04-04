@@ -6,6 +6,9 @@ public class InterfaceExample {
 		Animal a1 = new Pig();
 		Animal a2 = new Owl();
 		
+		/*
+		 * Utilize same methods from Animal interface, but each class implement s differently.
+		 */
 		a1.makeSound();
 		a1.run();
 		a1.sleep();
