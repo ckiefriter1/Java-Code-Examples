@@ -2,13 +2,13 @@ package classes;
 
 public class GetterSetterExample {
 	
-	String name;
+	private String name;
 	
 	/*
 	 * Getter method to get (retrieve) name property.
 	 */
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
 	/*
