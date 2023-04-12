@@ -9,6 +9,9 @@ public class ListExample {
 
 	public static void main(String[] args) {
 		List<String> myInstruments = new ArrayList<String>();
+		
+		List<String> mi2 = myInstruments;
+		
 		myInstruments.add("Tuba");
 		myInstruments.add("Trombone");
 		myInstruments.add("Trumpet");
@@ -16,7 +19,7 @@ public class ListExample {
 		myInstruments.add("Flute");
 		myInstruments.add("Clarinet");
 		myInstruments.add("Oboe");
-		
+		mi2.add("Guitar");
 		
 		/*
 		 * Display current instrument list.
@@ -54,6 +57,7 @@ public class ListExample {
 		displayList(myInstruments);
 		
 	}
+	
 	
 	/*
 	 * Display all the elements in the list.

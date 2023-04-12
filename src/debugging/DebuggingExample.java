@@ -28,7 +28,7 @@ public class DebuggingExample {
 	private static int findIndexOfName(List<String> names, String name) {
 		int index = -1;
 		
-		for (int i = 1; i < names.size(); i++) {
+		for (int i = 0; i < names.size(); i++) {
 			if (names.get(i).equals(name)) {
 				index = i;
 				break;
