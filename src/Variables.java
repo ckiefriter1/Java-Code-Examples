@@ -19,6 +19,7 @@ public class Variables {
 	 	 * 
 	 	 * byte  -  8-bit integer, Range = -127 to 128
 	 	 * short - 16-bit integer, Range = -32,768 to 32,767
+	 	 * 
 	 	 * int   - 32-bit integer, Range = -2(to the power of 31) to 2(to the power of 31)-1
 	 	 * long  - 64-bit integer, Range = -2(to the power of 63) to 2(to the power of 63)-1
 	 	 * 
