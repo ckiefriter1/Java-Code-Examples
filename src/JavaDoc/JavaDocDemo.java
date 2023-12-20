@@ -3,6 +3,9 @@ package JavaDoc;
 /**
  * Represents a student enrolled in the school.
  * A student can be enrolled in many courses.
+ * 
+ * @author Chuck Kiefriter
+ * @version 1.0
  */
 public class JavaDocDemo {
 
@@ -26,12 +29,17 @@ public class JavaDocDemo {
 	   *                Should include both first
 	   *                and last name.
 	   * @return void (returns nothing)
+	   * @since v1.0
 	   */
 	  public void setName(String newName) {
 	    name = newName;
 	  }
 	  
-	public static void main(String[] args) {
+	  /**
+	   * Main method to execute this calss like a program.
+	   * @param args Any parameters passed to the program that affect how it runs and is configured.
+	   */
+	  public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	}

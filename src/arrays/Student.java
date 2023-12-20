@@ -2,8 +2,8 @@ package arrays;
 
 public class Student { 
 	
-    String fullName = ""; 
-    int[] grades; 
+    private String fullName = ""; 
+    private int[] grades; 
 
     /* 
      * Constructor for Student class with two parameters used to instantiate the class.
