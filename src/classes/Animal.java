@@ -6,11 +6,11 @@ public class Animal {
 	 * Class properties (variables), the data that's stored in objects (instances) of 
 	 * this class. 
 	 */
-	String name;
-	String type;
-	double weight;
-	double height;
-	String location;
+	private String name;
+	private String type;
+	private double weight;
+	private double height;
+	private String location;
 	
 	/*
 	 * No argument Constructor.

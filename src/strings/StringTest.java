@@ -8,11 +8,11 @@ public class StringTest {
 	 * Compare run-times and memory usage for StringBuffer vs StringBuilder classes.
 	 */
 	public static void main(String[] args) {
-		testString();
+		//testString();
 		System.out.println("------------------------------------------");
 		//testStringBuffer();
 		System.out.println("------------------------------------------");
-		//testStringBuilder();
+		testStringBuilder();
 	}
 	
 	public static void testString() {
@@ -30,6 +30,7 @@ public class StringTest {
 		long endMemory=Runtime.getRuntime().freeMemory();
 		
 		System.out.println("*** String Stats***");
+		System.out.println("# of Strings concatenated: 50,000");
 		System.out.println("Time Taken: "+(end-start) + " milliseconds");
 		System.out.println("Memory used: " + String.format("%,d",(startMemory-endMemory)));
 	}
@@ -68,6 +69,7 @@ public class StringTest {
 		long endMemory=Runtime.getRuntime().freeMemory();
 		
 		System.out.println("*** StringBuilder Stats***");
+		System.out.println("# of Strings concatenated: 10,000,000");
 		System.out.println("Time Taken: "+(end-start) + " milliseconds");
 		System.out.println("Memory used: " + String.format("%,d",(startMemory-endMemory)));
 	

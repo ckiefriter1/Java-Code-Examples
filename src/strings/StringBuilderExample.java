@@ -12,6 +12,7 @@ public class StringBuilderExample {
 		
 		System.out.println(firstName);
 		System.out.println(lastName);
+		System.out.println(fullName);
 		
 		StringBuilder sb = new StringBuilder();
 		

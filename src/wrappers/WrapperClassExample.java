@@ -17,6 +17,7 @@ public class WrapperClassExample {
 		numbers.add(b);
 		numbers.add(c);
 		a = 34;
+		numbers.add(a);
 		System.out.println("------------------------------");
 		displayList(numbers);
 		numbers.sort(null);
