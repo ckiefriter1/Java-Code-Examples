@@ -8,12 +8,12 @@ public class ListOfNumbers {
 	private static final int SIZE = 10;
 
 	public ListOfNumbers() {
-		/*
+		
 		for (int i = 1; i <= SIZE; i++) {
 			Integer num = (i * SIZE);
 			list.add(num);
 		}
-		*/
+		
 	}
 	
 	public void writeList() {
@@ -22,7 +22,7 @@ public class ListOfNumbers {
 	    try {
 	        System.out.println("Entering \"try\" statement");
 
-	        out = new PrintWriter(new FileWriter("OutFile.txt"));
+	        out = new PrintWriter(new FileWriter("!@#$%^&*OutFile.txt"));
 	        
 	        for (int i = 0; i < SIZE; i++) {
 	        	out.println("Value at index: " + i + " = " + list.get(i));
@@ -34,6 +34,9 @@ public class ListOfNumbers {
 	    } catch (IOException e) {
 	        System.err.println("Caught IOException: " +  e.getMessage());
 	                                 
+	    } catch (Exception e) {
+	    	System.err.println("Caught general exception: " +  e.getMessage());
+	    
 	    } finally {
 	        if (out != null) {
 	            System.out.println("*** Closing PrintWriter");
