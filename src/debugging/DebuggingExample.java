@@ -9,7 +9,7 @@ public class DebuggingExample {
 		
 		List<String> names = new ArrayList<String>();
 		addNames(names);
-		int index = findIndexOfName(names, "Sam"); 
+		int index = findIndexOfName(names, "Chuck"); 
 		
 		if (index == -1) {
 			System.out.println(index + " Name not found");
