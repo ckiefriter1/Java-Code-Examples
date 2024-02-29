@@ -26,7 +26,7 @@ public class MapExample {
 		  System.out.println("The value for Key 107 (not in the Map) = " + map.getOrDefault(107, "No value entry for this key"));
 		  
 		  System.out.println("-----------------------------------");
-		  map.remove(100);
+		  map.remove(103);
 		  displayMapContents(map);
 	 }
 

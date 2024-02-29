@@ -33,6 +33,7 @@ public class StringTest {
 		System.out.println("# of Strings concatenated: 50,000");
 		System.out.println("Time Taken: "+(end-start) + " milliseconds");
 		System.out.println("Memory used: " + String.format("%,d",(startMemory-endMemory)));
+		//System.out.println(s);
 	}
 
 	public static void testStringBuffer() {
