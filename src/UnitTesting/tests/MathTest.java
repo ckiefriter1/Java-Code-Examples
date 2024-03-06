@@ -37,5 +37,10 @@ class MathTest {
 		assertTrue(m.isPositiveNumber(a));
 	}
 	
-
+	@Test
+	void testIsPositiveNumberReturnsFalseIfArgIsNegative () {
+		int a = -5;
+		assertFalse(m.isPositiveNumber(a));
+	}
+	
 }
