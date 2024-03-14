@@ -7,7 +7,7 @@ public class AnimalMain {
 	    // Use the Constructor to set the information upon 
 	    //     creation of the Object.
 		Animal elephant = new Animal("Dumbo", "Elephant", 8000, 108, "Disneyland");
-	
+		
 		elephant.describe();
 	
 		System.out.println("\n\nLet's access individual fields:");

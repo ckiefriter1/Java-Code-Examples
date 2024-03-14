@@ -6,7 +6,7 @@ public class AbstractionExample {
 		Subject x = new IT();
 	       
         x.syllabus();
-        x.Learn();
+        x.learn();
 
 	}
 

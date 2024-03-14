@@ -11,7 +11,7 @@ abstract class Subject {
 
    abstract void syllabus();
 
-   void Learn(){
+   void learn(){
        System.out.println("Preparing Right Now!");
  }
 }

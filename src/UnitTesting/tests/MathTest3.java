@@ -9,13 +9,13 @@ import UnitTesting.Math;
 class MathTest3 {
 
 	Math m = new Math();
-	
+
 	@Test
 	void testMultiplyReturnsCorrectValues() {
 		int product = m.multiply(2, 5);
 		assertEquals(10, product);
 	}
-
+	
 	@Test
 	void testDivideReturnsCorrectValues() {
 		double product = m.divide(5.0, 2.0);
@@ -38,5 +38,10 @@ class MathTest3 {
 		assertTrue(m.isPositiveNumber(a));
 	}
 	
+	@Test
+	void testIsPositiveNumberReturnsFalseIfArgIsNegative () {
+		int a = -5;
+		assertFalse(m.isPositiveNumber(a));
+	}
 
 }

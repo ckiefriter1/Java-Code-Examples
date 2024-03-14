@@ -9,13 +9,18 @@ public class DebuggingExample {
 		
 		List<String> names = new ArrayList<String>();
 		addNames(names);
-		int index = findIndexOfName(names, "Chuck"); 
 		
-		if (index == -1) {
-			System.out.println(index + " Name not found");
-		} else {
-			System.out.println("Name found at index " + index);
-		}
+		/*
+		 * Search for a name that is in the list.
+		 */
+		String nameToSearch = "Joan";
+		int index = findIndexOfName(names, nameToSearch); 
+		
+		/*
+		 * Search for a name that is NOT in the list.
+		 */
+		nameToSearch = "Chuck";
+		index = findIndexOfName(names, nameToSearch); 
 	}
 
 	private static void addNames(List<String> names) {
@@ -33,6 +38,12 @@ public class DebuggingExample {
 				index = i;
 				break;
 			}
+		}
+		
+		if (index == -1) {
+			System.out.println(index + " Name " + name + " not found");
+		} else {
+			System.out.println("Name " + name + " found at index " + index);
 		}
 		
 		return index;

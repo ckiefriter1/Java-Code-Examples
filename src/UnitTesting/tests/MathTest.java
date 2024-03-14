@@ -1,14 +1,15 @@
 package UnitTesting.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
-import UnitTesting.Math;
 
 import org.junit.jupiter.api.Test;
 
-class MathTest {
-	
-	Math m = new Math();
+import UnitTesting.Math;
 
+class MathTest {
+
+	Math m = new Math();
+	
 	@Test
 	void testMultiplyReturnsCorrectValues() {
 		int product = m.multiply(2, 5);
@@ -42,5 +43,5 @@ class MathTest {
 		int a = -5;
 		assertFalse(m.isPositiveNumber(a));
 	}
-	
+
 }
