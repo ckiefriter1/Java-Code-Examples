@@ -56,6 +56,7 @@ class ArrayDemo {
         	System.out.println("Element at index " + i + ": " + myNumArray[i]);
         }
         
+        System.out.println(myNumArray[myNumArray.length-1]);
         
         System.out.println("-------------------------------------------------");
         // Example with an array of String objects.
@@ -70,7 +71,7 @@ class ArrayDemo {
         cars[1] = "Ferrari";
         
         //Display contents of the array using for loop --> after changing one of the values in the array.
-        System.out.println("*** List of cars after changing the 2nd element in the array");
+        System.out.println("\n*** List of cars after changing the 2nd element in the array");
         for (int i = 0; i < cars.length; i++) {     
         	System.out.println("Element at index " + i + ": " + cars[i]);
         }

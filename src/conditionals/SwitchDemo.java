@@ -33,6 +33,6 @@ public class SwitchDemo {
             default: monthString = "Invalid month";
                      break;
         }
-        System.out.println(monthString);
+        System.out.println(month + " is the numeric month value for " + monthString);
     }
 }

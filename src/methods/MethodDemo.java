@@ -22,19 +22,34 @@ public class MethodDemo {
 		int result2 = myCalc.subtract(a,b);
 		int result3 = myCalc.multiply(a,b);
 		
-		System.out.println(a + " + " + b + " = " + result1);
-		System.out.println(a + " - " + b + " = " + result2);
-		System.out.println(a + " * " + b + " = " + result3);
-		System.out.println("--------------------------------");
+		displayMathResults(a, b, result1, result2, result3);
 		
 		/* 
 		 * Method calls return the result of the calculation, which is used directly in the System.out.println output
 		 */
-		System.out.println(a + " + " + b + " = " + myCalc.add(a,b));
-		System.out.println(a + " - " + b + " = " + myCalc.subtract(a,b));
-		System.out.println(a + " * " + b + " = " + myCalc.multiply(a,b));
+		displayMathResults(a, b, myCalc.add(a,b), myCalc.subtract(a,b), myCalc.multiply(a,b));
 		
+		/*
+		 * Calculate and display the annual interest on a loan.
+		 */
+		double principal = 100000d;
+		float  annualInterestRate = .05f;
+		int    numberOfLoanYears = 10;
+		System.out.println("Annual Interest on $" + (int)principal + 
+				           " with a " + myCalc.convertDecimaltoPercentage(annualInterestRate) + "% interest rate " +
+				           "over a period of " + numberOfLoanYears + " years " +
+				           " is = $" + String.format("%.2f", myCalc.calculateAnnualInterest(principal, annualInterestRate, numberOfLoanYears)));
 
 	}
+    
+    /*
+     * Display results of math calculations.
+     */
+    public static void displayMathResults(int a, int b, int addResult, int subtractResult, int multiplyResult) {
+    	System.out.println(a + " + " + b + " = " + addResult);
+		System.out.println(a + " - " + b + " = " + subtractResult);
+		System.out.println(a + " * " + b + " = " + multiplyResult);
+		System.out.println("--------------------------------\n");
+    }
 	
 }

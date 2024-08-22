@@ -26,7 +26,7 @@ public class EqualityDemo {
 		 * process that will clean up this object and deallocate the memory for other use.
 		 */
 		s1 = s2;   
-		System.out.println("s1 == s2: " + (s1 == s2));
+		System.out.println("s1 == s2 after assigning s1 = s2: " + (s1 == s2));
 		
 		/*
 		 * Comparison of fullName String property in both student objects s1 and s2.
@@ -35,8 +35,8 @@ public class EqualityDemo {
 		
 		/*
 		 * String class - the literal string "Chuck" is a String object itself and is immutable meaning both literals
-		 * point to the same string object in memory.  So even through we create 2 different String variables and assign 
-		 * them to what looks like two different literal strings, they are both point to the same String object in memory.
+		 * point to the same string object in memory.  So even though we create 2 different String variables and assign 
+		 * them to what looks like two different literal strings, they both point to the same String object in memory.
 		 */
 		String name1 = "Chuck";
 		String name2 = "Chuck";

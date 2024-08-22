@@ -5,7 +5,7 @@ import java.util.*;
 public class UserInputDemo {  
 	public static void main(String[] args)  {
 		// System.in is a standard input stream  
-		Scanner sc= new Scanner(System.in);    
+		Scanner sc = new Scanner(System.in);    
 		
 		System.out.print("Enter username:  ");   
 		String username = sc.nextLine();   
