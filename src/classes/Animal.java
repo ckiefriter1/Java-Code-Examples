@@ -78,7 +78,7 @@ public class Animal {
 		System.out.println("\tName: " + name);
 		System.out.println("\tType: " + type);
 		System.out.println("\tWeight: " + weight + " lb.");
-		System.out.println("\tHeight: " + height + " in.");
+		System.out.println("\tHeight: " + height + " ft.");
 		System.out.println("\tLocated at: " + location);
 	}
 }

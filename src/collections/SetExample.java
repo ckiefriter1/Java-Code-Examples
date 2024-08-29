@@ -28,7 +28,7 @@ public class SetExample {
 
 		vegetables.add(null);
 		System.out.println(vegetables);
-
+		
 		System.out.println("The size of our set is: " + vegetables.size());
 
 	}

@@ -6,7 +6,7 @@ public class AnimalMain {
 
 	    // Use the Constructor to set the information upon 
 	    //     creation of the Object.
-		Animal elephant = new Animal("Dumbo", "Elephant", 8000, 108, "Disneyland");
+		Animal elephant = new Animal("Dumbo", "Elephant", 8000, 15, "Disneyland");
 		
 		elephant.describe();
 	
@@ -28,7 +28,7 @@ public class AnimalMain {
 		kangaroo.setName("Jack");
 		kangaroo.setType("Kangaroo");
 		kangaroo.setWeight(150);
-		kangaroo.setHeight(48);
+		kangaroo.setHeight(6);
 		kangaroo.setLocation("Taronga Zoo");
 	
 		kangaroo.describe();

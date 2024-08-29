@@ -9,7 +9,7 @@ public class StringBuilderExample {
 		String space = " ";
 		
 		String fullName = firstName + space + middleInitial + space + lastName;
-		
+		System.out.println("*** using String...");
 		System.out.println(firstName);
 		System.out.println(lastName);
 		System.out.println(fullName);
@@ -20,9 +20,10 @@ public class StringBuilderExample {
 		sb.append(firstName);
 		sb.append(space);
 		sb.append(lastName);
+		System.out.println("\n*** using StringBuilder...");
 		System.out.println(sb.toString());
 		
-		// Add a middle Initial
+		// Add a middle Initial, inserted into an existing string.
 		sb.insert(firstName.length() + 1, middleInitial + space);
 		System.out.println(sb.toString());
 	}

@@ -18,7 +18,7 @@ public class MapExample {
 		  System.out.println("-----------------------------------");
 		  System.out.println("The value for Key 101 = " + map.get(101));
 		  System.out.println("This map has " + map.size() + " entries");
-		  System.out.println("Hashcode for entry 103 = " + map.hashCode());
+		  System.out.println("Hashcode for this map = " + map.hashCode());
 		  System.out.println("containsKey(110) = " + map.containsKey(110));
 		  System.out.println("containsValue(Chuck) = " + map.containsValue("Chuck"));
 		  map.replace(102, "Anna");
