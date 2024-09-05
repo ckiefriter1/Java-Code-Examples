@@ -25,9 +25,9 @@ public class ListOfNumbers {
 	        /*
 	         * Would throw an IOException because of bad file name.
 	         */
-	        out = new PrintWriter(new FileWriter("!@#$%^&*OutFile.txt"));  
+	        //out = new PrintWriter(new FileWriter("!@#$%^&*OutFile.txt"));  
 	        
-	        //out = new PrintWriter(new FileWriter("OutFile.txt"));
+	        out = new PrintWriter(new FileWriter("OutFile.txt"));
 	        
 	        for (int i = 0; i < SIZE; i++) {
 	        	out.println("Value at index: " + i + " = " + list.get(i));
@@ -37,8 +37,8 @@ public class ListOfNumbers {
 	        System.err.println("Caught IndexOutOfBoundsException: " +  e.getMessage());
 	                                 
 	    } catch (IOException e) {
-	        //System.err.println("Caught IOException: " +  e.getMessage());
-	    	System.err.println("Caught IOException: " +  e.getStackTrace());
+	        System.err.println("Caught IOException: " +  e.getMessage());
+	    	//System.err.println("Caught IOException: " +  e.getStackTrace());
 	                                 
 	    } catch (Exception e) {
 	    	System.err.println("Caught general exception: " +  e.getMessage());
