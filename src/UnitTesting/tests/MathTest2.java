@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import UnitTesting.Math;
 
-class MathTest4 {
+class MathTest2 {
 
     Math m = new Math();
 	
@@ -15,7 +15,6 @@ class MathTest4 {
 		int product = m.multiply(2, 5);
 		assertEquals(10, product);
 	}
-
 	
 	@Test
 	void testDivideReturnsCorrectValues() {
@@ -44,5 +43,5 @@ class MathTest4 {
 		int a = -5;
 		assertFalse(m.isPositiveNumber(a));
 	}
-
+ 
 }

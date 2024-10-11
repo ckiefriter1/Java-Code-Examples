@@ -3,7 +3,7 @@ package conditionals;
 class IfElseDemo {
     public static void main(String[] args) {
 
-        int testScore = 76;
+        int testScore = 81;
         char grade;
 
         if (testScore >= 90) {

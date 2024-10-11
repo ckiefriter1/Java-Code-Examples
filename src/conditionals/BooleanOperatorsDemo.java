@@ -12,6 +12,9 @@ public class BooleanOperatorsDemo {
 		 */
 		int a = 10;
 		int b = 20;
+		
+		System.out.println("The opposite of false is " + !falseExpression);
+		
 		System.out.println(a + " <  " + b + " = " + (a < b));
 		System.out.println(a + " <= " + b + " = " + (a <= b));
 		System.out.println(a + " >  " + b + " = " + (a > b));
@@ -47,6 +50,8 @@ public class BooleanOperatorsDemo {
 		System.out.println(trueExpression + " expression OR (||) " + falseExpression + " expression evaluates " + (trueExpression || falseExpression));
 		System.out.println(falseExpression + " expression OR (||) " + falseExpression + " expression evaluates " + (falseExpression || falseExpression));
 		
+		
+
 	}
 
 }
