@@ -9,9 +9,6 @@ public class StringTest {
 	 */
 	public static void main(String[] args) {
 		//testString();
-		System.out.println("------------------------------------------");
-		//testStringBuffer();
-		System.out.println("------------------------------------------");
 		testStringBuilder();
 	}
 	
