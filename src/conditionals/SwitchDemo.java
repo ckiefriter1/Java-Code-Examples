@@ -3,7 +3,7 @@ package conditionals;
 public class SwitchDemo {
     public static void main(String[] args) {
 
-        int month = 8;
+        int month = 5;
         String monthString;
         switch (month) {
             case 1:  monthString = "January";

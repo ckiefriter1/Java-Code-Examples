@@ -4,7 +4,7 @@ package inheritence;
 class MountainBike extends Bicycle {
 
  // the MountainBike subclass adds one more field
- public int seatHeight;
+ private int seatHeight;
 
  // the MountainBike subclass has one constructor
  public MountainBike(int gear, int speed,int startHeight)

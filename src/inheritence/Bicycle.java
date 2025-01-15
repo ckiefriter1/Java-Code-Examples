@@ -3,11 +3,11 @@ package inheritence;
 //Java program to illustrate the
 //concept of inheritance
 
-//base class
+//base class (or parent class)
 class Bicycle {
  // the Bicycle class has two fields
- public int gear;
- public int speed;
+ private int gear;
+ private int speed;
 
  // the Bicycle class has one constructor
  public Bicycle(int gear, int speed)

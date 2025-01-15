@@ -60,6 +60,9 @@ public class Variables {
 		int c = 100100;  
 		System.out.println(c);
 		
+		float d = 125.56f;
+		System.out.println(d);
+		
 		double accountBalance = 34.67;                      // Single line declaration & initialization.
 		System.out.println(accountBalance);
 		

@@ -11,7 +11,7 @@ public class LoginWithRetries {
 		Byte loginRetryLimit = 3;
 		Byte loginRetryCount = 0;
 		
-		while (!loggedIn) {
+		while (loggedIn == false) {
 			System.out.print("Enter username: ");   
 			String username = sc.nextLine();   
 			System.out.print("Enter password: ");  

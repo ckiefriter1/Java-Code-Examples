@@ -2,6 +2,7 @@ package methods;
 
 public class MethodDemo2 {
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -18,7 +19,7 @@ public class MethodDemo2 {
 		a = -31;
 		b = -56;
 				
-		displayNumbers(a, b);
+		displayNumbers(6, 10);
 		
 		
 	}
@@ -26,6 +27,7 @@ public class MethodDemo2 {
 	public static void displayNumbers(int a, int b) {
 		System.out.println("a = " + a);
 		System.out.println("b = " + b);
+		System.out.println("-----------");
 		return;
 	}
 	

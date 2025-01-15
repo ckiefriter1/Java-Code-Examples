@@ -9,7 +9,7 @@ public class Login {
 		boolean loggedIn = false;
 		Scanner sc= new Scanner(System.in);
 		
-		while (!loggedIn) {
+		while (loggedIn == false) {
 			System.out.print("Enter username: ");   
 			String username = sc.nextLine();   
 			System.out.print("Enter password: ");  

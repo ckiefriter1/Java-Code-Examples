@@ -1,7 +1,8 @@
 package loops;
 
 class ForDemo { 
-    public static void main(String[] args) {
+	
+	public static void main(String[] args) {
         
     	/*
     	 * Basic for loop structure:
@@ -10,8 +11,7 @@ class ForDemo {
     	 * 	  	  statement(s)
     	 *   }
     	 */
-    	
-    	for (int i = 1; i <= 20; i++){
+    	for (int i = 1; i <= 1000; i++){
     		System.out.println("Count is: " + i);
     	
     	}
