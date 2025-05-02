@@ -2,6 +2,7 @@ package polymorphism;
 
 public class Dog extends Animal {
    public void animalSound() {
-	  System.out.println("The dog says: bow wow");
+	   super.animalSound();
+	   System.out.println("\nand the dog says: bow wow");
    }
 }

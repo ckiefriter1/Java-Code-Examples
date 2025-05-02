@@ -2,20 +2,26 @@ package UnitTesting.tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import UnitTesting.Math;
 
 class MathTest2 {
 
-    Math m = new Math();
+	Math m = null;
+	
+	@BeforeEach
+	void setUp() throws Exception {
+		m = new Math();
+	}
 	
 	@Test
 	void testMultiplyReturnsCorrectValues() {
 		int product = m.multiply(2, 5);
 		assertEquals(10, product);
 	}
-	
+
 	@Test
 	void testDivideReturnsCorrectValues() {
 		double product = m.divide(5.0, 2.0);
@@ -43,5 +49,6 @@ class MathTest2 {
 		int a = -5;
 		assertFalse(m.isPositiveNumber(a));
 	}
- 
+	
+
 }
