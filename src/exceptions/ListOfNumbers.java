@@ -27,7 +27,7 @@ public class ListOfNumbers {
 	         */
 	        //out = new PrintWriter(new FileWriter("!@#$%^&*OutFile.txt"));  
 	        
-	        out = new PrintWriter(new FileWriter("/~!@#$$%^&*OutFile.txt"));
+	        out = new PrintWriter(new FileWriter("OutFile.txt"));
 	        
 	        for (int i = 0; i < SIZE; i++) {
 	        	out.println("Value at index: " + i + " = " + list.get(i));
